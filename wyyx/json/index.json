@@ -1,0 +1,353 @@
+{
+	"jjsh": [
+		{
+			"img": "image/j1.webp",
+			"imgScene": "image/j11.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/j2.webp",
+			"imgScene": "image/j22.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/j3.webp",
+			"imgScene": "image/j33.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/j4.webp",
+			"imgScene": "image/j44.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"fsxb": [
+		{
+			"img": "image/fsxbaa.webp",
+			"imgScene": "image/fsxba.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/fsxbbb.webp",
+			"imgScene": "image/fsxbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/fsxbcc.webp",
+			"imgScene": "image/fsxbc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/fsxbdd.webp",
+			"imgScene": "image/fsxbd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"msjs": [
+		{
+			"img": "image/msjsa.webp",
+			"imgScene": "image/msjsaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/msjsb.webp",
+			"imgScene": "image/msjsbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/msjsc.webp",
+			"imgScene": "image/msjscc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/msjsd.webp",
+			"imgScene": "image/msjsdd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"ghqj": [
+		{
+			"img": "image/ghqja.webp",
+			"imgScene": "image/ghqjaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/ghqjb.webp",
+			"imgScene": "image/ghqjbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/ghqjc.webp",
+			"imgScene": "image/ghqjcc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/ghqjd.webp",
+			"imgScene": "image/ghqjdd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"myqz": [
+		{
+			"img": "image/myqza.webp",
+			"imgScene": "image/myqzaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/myqzb.webp",
+			"imgScene": "image/myqzbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/myqzc.webp",
+			"imgScene": "image/myqzcc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/myqzd.webp",
+			"imgScene": "image/myqzdd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"ydlx": [
+		{
+			"img": "image/ydlxa.webp",
+			"imgScene": "image/ydlxaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/ydlxb.webp",
+			"imgScene": "image/ydlxbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/ydlxc.webp",
+			"imgScene": "image/ydlxcc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/ydlxd.webp",
+			"imgScene": "image/ydlxdd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"smjd": [
+		{
+			"img": "image/smjda.webp",
+			"imgScene": "image/smjdaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/smjdb.webp",
+			"imgScene": "image/smjdbb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/smjdc.webp",
+			"imgScene": "image/smjdcc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/smjdd.webp",
+			"imgScene": "image/smjddd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"qqte": [
+		{
+			"img": "image/qqtea.webp",
+			"imgScene": "image/qqteaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/qqteb.webp",
+			"imgScene": "image/qqtebb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/qqtec.webp",
+			"imgScene": "image/qqtecc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/qqted.webp",
+			"imgScene": "image/qqtedd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	],
+	"one": [
+		{
+			"img": "image/onea.webp",
+			"imgScene": "image/oneaa.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "带盖耐热玻璃桌面杯",
+			"price": "¥49"
+		}, {
+			"img": "image/qqteb.webp",
+			"imgScene": "image/qqtebb.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限100件 仅剩3小时",
+			"title": "限时购",
+			"subtitle": "¥2729起",
+			"prdtTags": "限时购",
+			"name": "3D透气高端弹簧床垫",
+			"price": "¥2729"
+		}, {
+			"img": "image/qqtec.webp",
+			"imgScene": "image/qqtecc.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"name": "双底面淘米洗菜篮",
+			"price": "¥29.9"
+		}, {
+			"img": "image/qqted.webp",
+			"imgScene": "image/qqtedd.webp",
+			"promoLogo": "image/bf43c8b8b8c205b14e3ac27021e04394.png",
+			"promBanner": "image/promBanner.png",
+			"promTitle": "image/promTitle.png",
+			"promContent": "限2700件 仅剩5小时",
+			"title": "超级疯抢",
+			"subtitle": "¥135起",
+			"prdtTags": "超级疯抢",
+			"name": "四重过滤 镁离子滤芯4件装",
+			"price": "¥135"
+		}
+	]
+}

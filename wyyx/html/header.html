@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script src="../js/jquery-3.2.1.min .js"></script>
+
+		<title>Document</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+			
+			.head {
+				box-sizing: border-box;
+				border-bottom: 2px solid rgb(225, 225, 225);
+			}
+			
+			body {
+				min-width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.tit {
+				width: 100%;
+				height: 36px;
+				background: rgb(51, 51, 51);
+			}
+			
+			.titc {
+				width: 1090px;
+				height: 36px;
+				margin: 0 auto;
+			}
+			
+			.titc .le {
+				float: left;
+			}
+			
+			.titc .le .lezi {
+				padding-left: 26px;
+				height: 36px;
+				font-size: 12px;
+				color: rgb(204, 151, 86);
+				line-height: 36px;
+			}
+			
+			.titc .le .lezi:hover {
+				color: white;
+				cursor: pointer;
+			}
+			
+			.titc .ri {
+				float: right;
+			}
+			
+			.titc .ri ul {
+				color: rgb(204, 204, 204);
+				font-size: 12px;
+				line-height: 36px;
+			}
+			
+			.titc .ri ul li {
+				float: left;
+				margin-left: 10px;
+				display: block;
+				position: relative;
+			}
+			
+			.titc .ri ul li:hover {
+				color: white;
+				cursor: pointer;
+			}
+			
+			.titc .ri ul p {
+				float: left;
+				margin-left: 10px;
+			}
+			
+			.posi:hover .add {
+				display: block;
+			}
+			
+			.add {
+				width: 70px;
+				border: 1px solid rgb(153, 153, 153);
+				line-height: 38px;
+				box-sizing: border-box;
+				position: absolute;
+				top: 36px;
+				left: -10px;
+				background: white;
+				text-align: center;
+				display: none;
+				z-index: 20;
+			}
+			
+			.addc {
+				width: 50px;
+				margin: 0 auto;
+			}
+			
+			.addc div {
+				width: 50px;
+				height: 38px;
+				color: rgb(153, 153, 153);
+				box-sizing: border-box;
+				border-bottom: 1px solid rgb(153, 153, 153);
+			}
+			
+			.addc div:last-child {
+				border: none;
+			}
+			
+			.add div:hover {
+				color: rgb(180, 160, 120);
+			}
+			
+			.titb {
+				width: 100%;
+				height: 140px;
+			}
+			
+			.titbc {
+				width: 1090px;
+				height: 140px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.logo {
+				width: 212px;
+				height: 60px;
+				float: left;
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				background-position: 0px -298px;
+				margin-top: 24px;
+			}
+			
+			#nan {
+				position: absolute;
+				left: 350px;
+				top: 25px;
+				z-index: 1;
+				display: block;
+				height: 32px;
+				line-height: 38px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				border: 1px solid #CC9756;
+				border-bottom-left-radius: 19px;
+				border-top-left-radius: 19px;
+				font-size: 14px;
+				width: 442px;
+				padding-left: 38px;
+				outline: 0;
+				overflow: hidden;
+			}
+			
+			.sousuo {
+				width: 90px;
+				height: 38px;
+				background-color: #CC9756;
+				border-top-right-radius: 19px;
+				border-bottom-right-radius: 19px;
+				cursor: pointer;
+				float: right;
+				color: #fff;
+				line-height: 38px;
+				text-align: center;
+				font-size: 16px;
+				letter-spacing: 1px;
+				position: absolute;
+				left: 832px;
+				top: 25px;
+			}
+			
+			.gouwu {
+				position: relative;
+				margin-top: 26px;
+				margin-left: 48px;
+				float: right;
+				z-index: 4;
+			}
+			
+			.gc {
+				position: relative;
+				cursor: pointer;
+				width: 134px;
+				height: 24px;
+				border: 1px solid #CC9756;
+				border-radius: 19px;
+				padding: 8px 0;
+			}
+			
+			.car {
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				margin-left: 22px;
+				background-position: 0 -148px;
+				height: 18px;
+				width: 18px;
+				float: left;
+				margin-top: 3px;
+			}
+			
+			#car {
+				line-height: 1.5;
+				font-family: "Microsoft Yahei", "微软雅黑", verdana;
+				color: rgb(204, 151, 86);
+				font-size: 14px;
+				margin-left: 8px;
+				display: block;
+				float: left;
+			}
+			
+			.shu {
+				float: left;
+				margin-left: 10px;
+				background: red;
+				width: 19px;
+				height: 19px;
+				border-radius: 50%;
+				line-height: 19px;
+				text-align: center;
+				margin-top: 2px;
+				color: white;
+				font-size: 14px;
+			}
+			
+			.wuf {
+				position: absolute;
+				top: 70px;
+				left: 365px;
+				width: 444px;
+				height: 18px;
+				overflow: hidden;
+			}
+			
+			.wuf ul {
+				position: absolute;
+				top: 0px;
+			}
+			
+			.wuf ul li {
+				height: 18px;
+				line-height: 18px;
+				margin-bottom: 18px;
+				font-size: 0;
+			}
+			
+			.wuf ul li div {
+				display: inline-block;
+				color: #999;
+				padding: 0 10px;
+				border-right: 1px solid #ccc;
+				cursor: pointer;
+				line-height: 12px;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+				max-width: 444px;
+				font-size: 12px;
+			}
+			
+			.big {
+				line-height: 1;
+				font-weight: 700;
+				position: absolute;
+				height: 30px;
+				bottom: 21px;
+				width: 100%;
+			}
+			
+			.bigli {
+				float: left;
+				margin-top: 27px;
+				padding: 0 26px;
+				font-size: 14px;
+				box-sizing: border-box;
+			}
+			
+			.bigli a {
+				text-decoration: none;
+				color: black;
+			}
+			
+			.active {
+				color: rgb(204, 151, 86);
+				border-bottom: 3px solid rgb(204, 151, 86);
+			}
+			
+			.bigli a:hover {
+				color: rgb(204, 151, 86);
+				border-bottom: 3px solid rgb(204, 151, 86);
+			}
+			
+			.big li:nth-child(1) {
+				padding-left: 0px;
+			}
+			
+			.big li:nth-child(11) {
+				padding-right: 0px;
+			}
+			
+			.big li a .touxia {
+				padding: 14px 20px 20px;
+				background: #fff;
+				border: 1px solid rgba(0, 0, 0, .1);
+				width: 1202px;
+				box-sizing: border-box;
+				position: absolute;
+				left: -56px;
+				right: auto;
+				top: 46px;
+			}
+			
+			.big li a .touxia .touxt {
+				width: 124px;
+				float: left;
+				margin-right: 24px;
+			}
+			
+			.big li a .touxia .touxt .toulto {
+				color: black;
+				margin-bottom: 10px;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 36px;
+				border-bottom: 1px solid #ddd;
+				width: 124px;
+			}
+			
+			.big li a .touxia .touxt .touul {
+				width: 124px;
+			}
+			
+			.toubli {
+				margin-bottom: 4px;
+				font-weight: 400;
+				line-height: 50px;
+				height: 50px;
+			}
+			
+			.toubli .touliimg {
+				width: 50px;
+				height: 50px;
+				float: left;
+			}
+			
+			.touliimg img {
+				width: 50px;
+				height: 50px;
+				padding: 0px;
+			}
+			
+			.tojieshao {
+				width: 70px;
+				max-width: 70px;
+				max-height: 48px;
+				margin-left: 4px;
+				font-size: 14px;
+				vertical-align: middle;
+				line-height: 1.2;
+				overflow: hidden;
+				word-wrap: break-word;
+				line-height: 50px;
+				color: rgb(51, 51, 51);
+			}
+			
+			.tojieshao:hover {
+				color: rgb(180, 160, 120);
+			}
+			
+			.touxia {
+				display: none;
+				z-index: 30;
+			}
+			
+			.bigli:hover .touxia {
+				display: block;
+			}
+			
+			.head2 {
+				width: 100%;
+				height: 0px;
+				overflow: hidden;
+				position: fixed;
+				transition: all .3s;
+				background: white;
+				z-index: 1000;
+				top: 0px;
+				box-sizing: border-box;
+				border-bottom: 1px solid rgb(235, 235, 235);
+			}
+			
+			.headc2 {
+				width: 1090px;
+				height: 50px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.logo2 {
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				background-position: 0 -438px;
+				height: 30px;
+				width: 126px;
+				margin-top: 10px;
+				float: left;
+			}
+			
+			.head2 ul {
+				position: absolute;
+				top: 11px;
+				left: 138px;
+				bottom: auto;
+				width: 838px;
+			}
+			
+			.head2 ul li {
+				font-size: 14px;
+				float: left;
+				padding: 0 17px;
+				box-sizing: border-box;
+				margin-top: 3px;
+			}
+			
+			.head2 ul li a {
+				text-decoration: none;
+				color: black;
+				padding-bottom: 15px;
+			}
+			
+			.head2 ul li a.active {
+				color: rgb(204, 151, 86);
+			}
+			
+			.head2 ul li a:hover {
+				color: rgb(204, 151, 86);
+				border-bottom: 3px solid rgb(204, 151, 86);
+			}
+			
+			.sousuo2 {
+				float: right;
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				background-position: 0 -602px;
+				height: 20px;
+				width: 20px;
+				margin-right: 32px;
+				margin-top: 17px;
+			}
+			
+			.pople2 {
+				float: right;
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				background-position: 0 -786px;
+				height: 22px;
+				width: 20px;
+				margin-right: 35px;
+				margin-top: 17px;
+			}
+			
+			.hecar2 {
+				float: right;
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+				background-position: 0 -204px;
+				height: 24px;
+				width: 24px;
+				margin-top: 17px;
+				margin-right: 20px;
+			}
+			
+			.fixri {
+				width: 72px;
+				height: 500px;
+				position: absolute;
+				right: 20px;
+				top: 650px;
+				z-index: 100;
+			}
+			
+			.gigt {
+				width: 72px;
+				height: 82px;
+				box-sizing: border-box;
+				background-color: #fff;
+				color: #666;
+				text-align: center;
+				cursor: pointer;
+				padding-top: 14px;
+				position: relative;
+			}
+			
+			.gigtnei {
+				background: url(../img/icon-yxfixedtool-sb35ce57899-796b48a324.webp);
+				width: 28px;
+				height: 29px;
+				background-position: 0 -363px;
+				margin: 0 auto;
+			}
+			
+			.gigtneiz {
+				text-align: center;
+				font-size: 14px;
+				margin-top: 10px;
+			}
+			
+			.j-yx {
+				text-align: center;
+			}
+			
+			.j-yx p {
+				font-size: 12px;
+			}
+			
+			.saoma {
+				color: #999;
+			}
+			
+			.rad {
+				color: rgb(188, 59, 59);
+			}
+			
+			.heline {
+				width: 65px;
+				margin: 0 auto;
+				height: 1px;
+				background: #999;
+				margin-top: 20px;
+			}
+			
+			.wiFI {
+				font-size: 14px;
+				text-align: center;
+			}
+			
+			.widd {
+				background: url(../img/icon-yxfixedtool-sb35ce57899-796b48a324.webp);
+				background-position: 0 -527px;
+				height: 26px;
+				width: 26px;
+				margin: 10px auto;
+			}
+			
+			.widds {
+				width: 32px;
+				height: 31px;
+				background-position: 0 -128px;
+			}
+			
+			.totop {
+				width: 72px;
+				height: 60px;
+				text-align: center;
+				font-size: 14px;
+			}
+			
+			.topimg {
+				width: 24px;
+				height: 15px;
+				margin: 14px auto;
+				background: url(../img/icon-yxfixedtool-sb35ce57899-796b48a324.webp);
+				background-position: 0 -299px;
+			}
+			
+			.icon-yxtop-search-gray {
+				background-position: 0 -518px;
+				height: 14px;
+				width: 14px;
+				font-style: normal;
+				display: inline-block;
+			}
+			
+			.yx-cp-icon-yxtop {
+				background-image: url(../image/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxtop-s24d0453a5f-dba1cb6952.png);
+			}
+			
+			.icon-yxtop-search-gray {
+				position: relative;
+    left: 150px;
+    top: 34px;
+    z-index: 100;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="tit">
+				<div class="titc">
+					<div class="le">
+						<div></div>
+						<div class="lezi">用银行卡在严选购物，最高随机直减99元</div>
+					</div>
+					<div class="ri">
+						<ul>
+							<li>登录/注册</li>
+							<p>|</p>
+							<li>我的订单</li>
+							<p>|</p>
+							<li>会员</li>
+							<p>|</p>
+							<li>甄选家</li>
+							<p>|</p>
+							<li class="posi">企业采购
+								<div class="add">
+									<div class="addc">
+										<div>企业购</div>
+										<div>礼品卡</div>
+										<div>联系我们</div>
+									</div>
+
+								</div>
+							</li>
+							<p>|</p>
+							<li class="posi">客户服务
+								<div class="add">
+									<div class="addc">
+										<div>在线服务</div>
+										<div>帮助中心</div>
+										<div>商务合作</div>
+										<div>开放平台</div>
+
+									</div>
+
+								</div>
+							</li>
+							<p>|</p>
+							<li>APP</li>
+							<p>|</p>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="titb">
+				<div class="titbc">
+					<div class="logo"></div>
+					<i class="yx-cp-icon-yxtop icon-yxtop-search-gray"></i>
+					<input type="" name="" id="nan" value="" placeholder="男/女 日式和风条纹家居拖鞋" />
+					<div class="sousuo">搜索</div>
+					<div class="gouwu">
+						<div class="gc">
+							<div class="car"></div>
+							<span id="car">
+								购物车
+							</span>
+							<div class="shu">0</div>
+						</div>
+					</div>
+					<div class="wuf">
+						<ul class="ul">
+							<li>
+								<div>润肌水74折</div>
+								<div>回馈金卡充11得33</div>
+								<div>爆款 行李箱</div>
+								<div>绍兴黄酒58元</div>
+							</li>
+							<li>
+								<div>日式香薰机 直减50</div>
+								<div>预售盛典</div>
+								<div>便携饭盒</div>
+								<div>擦手巾</div>
+							</li>
+							<li>
+								<div>润肌水74折</div>
+								<div>回馈金卡充11得33</div>
+								<div>爆款 行李箱</div>
+								<div>绍兴黄酒58元</div>
+							</li>
+						</ul>
+					</div>
+					<ul class="big">
+						<li class="bigli">
+							<a class="active" href="../index/index.html" target="_blank">首页</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/jjsh.html" target="_blank">居家生活</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/fsxb.html" target="_blank">服饰鞋包</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/msjs.html" target="_blank">美食酒水</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/ghqj.html" target="_blank">个护清洁</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/myqz.html" target="_blank">母婴亲子</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/ydlx.html" target="_blank">运动旅行</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/smjd.html" target="_blank">数码家电</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/qqte.html" target="_blank">全球特色</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/wnyx.html" target="_blank">为你严选</a>
+						</li>
+						<li class="bigli">
+							<a class="sc" href="../html/zc.html" target="_blank">众筹</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="head2">
+			<div class="headc2">
+				<div class="logo2">
+
+				</div>
+				<ul>
+					<li>
+						<a class="active" href="../index/index.html" target="_blank">首页</a>
+					</li>
+					<li>
+						<a href="../html/jjsh.html" target="_blank">居家生活</a>
+					</li>
+					<li>
+						<a href="../html/fsxb.html" target="_blank">服饰鞋包</a>
+					</li>
+					<li>
+						<a href="../html/msjs.html" target="_blank">美食酒水</a>
+					</li>
+					<li>
+						<a href="../html/ghqj.html" target="_blank">个护清洁</a>
+					</li>
+					<li>
+						<a href="../html/myqz.html" target="_blank">母婴亲子</a>
+					</li>
+					<li>
+						<a href="../html/ydlx.html" target="_blank">运动旅行</a>
+					</li>
+					<li>
+						<a href="../html/smjd.html" target="_blank">数码家电</a>
+					</li>
+					<li>
+						<a href="../html/qqte.html" target="_blank">全球特色</a>
+					</li>
+				</ul>
+				<div class="hecar2"></div>
+				<div class="pople2"></div>
+				<div class="sousuo2">
+
+				</div>
+
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			$(() => {
+				$(".big li").click(() => {
+					for (let i = 0; i < $("a").length; i++) {
+						$(".big li").className = ""
+					}
+					$(this).addClass("active")
+				})
+				window.onscroll = function() {
+					let head2 = document.getElementsByClassName("head2")[0]
+					let fixri = document.getElementsByClassName("fixri")[0]
+					var gao = document.documentElement.scrollTop || document.body.scrollTop
+					if (gao > 176) {
+						head2.style.height = "50px"
+					} else {
+						head2.style.height = "0px"
+					}
+					if (gao > 650) {
+						fixri.style.position = "fixed"
+						fixri.style.top = "100px"
+					} else {
+						fixri.style.position = "absolute"
+						fixri.style.top = "650px"
+					}
+				}
+				let div = document.getElementsByClassName("totop")[0]
+				div.onclick = function fn() {
+					window.scrollBy(0, -100);
+					t = setTimeout(fn, 10);
+					var st = document.documentElement.scrollTop || document.body.scrollTop
+					console.log(st)
+					if (st == 0) {
+						clearTimeout(t)
+					}
+				}
+				$.ajax({
+					type: "get",
+					url: "../json/header.json",
+					async: true,
+					dataType: "json",
+					success: function(data) {
+						$.each(data, function(i) {
+							$(`
+							<div class="touxia">
+								
+							</div>
+						`).appendTo($(".sc").eq(i))
+							$.each(data[i], function(j) {
+								if (j == 7) {
+									$(`
+								<div class="touxt" style="margin-right: 0px;">
+								<div class="toulto">${data[i][j].title}</div>
+								<ul class="touul">
+								</ul>
+								</div>
+							`).appendTo($(".touxia").eq(i))
+								} else {
+									$(`
+								<div class="touxt">
+								<div class="toulto">${data[i][j].title}</div>
+								<ul class="touul">
+								</ul>
+								</div>
+							`).appendTo($(".touxia").eq(i))
+								}
+								$.each(data[i][j].img, function(x) {
+									$(`
+									<li class="toubli">
+										<div class="touliimg"><img src='../${data[i][j].img[x]}'></div>
+										<div class="tojieshao">${data[i][j].alt[x]}</div>
+									</li>
+								`).appendTo($(".touxia").eq(i).children(".touxt").children(".touul").eq(j))
+								});
+							});
+						})
+					},
+					error: function(err) {
+						console.log(err)
+					}
+				});
+			})
+		}
+	</script>
+
+</html>

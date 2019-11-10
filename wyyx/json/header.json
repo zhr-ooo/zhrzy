@@ -1,0 +1,348 @@
+[
+	[
+		{
+			"title": "秋冬好物",
+			"img": [
+				"img/a11.png",
+				"img/a12.png",
+				"img/a13.png",
+				"img/a14.png"
+			],
+			"alt": [
+				"秋冬好物",
+				"主题床品",
+				"北欧原木",
+				"餐厨系列"
+			]
+		}, {
+			"title": "床上用品",
+			"img": [
+				"img/a21.png",
+				"img/a22.png",
+				"img/a23.png"
+			],
+			"alt": [
+				"床品件套",
+				"被枕盖毯",
+				"床垫床褥"
+			]
+		}, {
+			"title": "家居饰品",
+			"img": [
+				"img/a24.png",
+				"img/a25.png",
+				"img/a26.png"
+			],
+			"alt": [
+				"抱枕靠垫",
+				"家室",
+				"居家布艺"
+			]
+		}, {
+			"title": "家居家装",
+			"img": [
+				"img/a41.png",
+				"img/a42.png",
+				"img/a43.png",
+				"img/a44.png",
+				"img/a45.png"
+			],
+			"alt": [
+				"客餐厅家具",
+				"卧室家具",
+				"办公室家具",
+				"小件家具",
+				"灯具",
+				"地毯窗帘"
+			]
+		}, {
+			"title": "收纳日用",
+			"img": [
+				"img/a51.png",
+				"img/a52.png",
+				"img/a53.png",
+				"img/a54.png",
+				"img/a55.png"
+			],
+			"alt": [
+				"收纳",
+				"晾晒涂抹",
+				"毛巾浴巾",
+				"居家拖鞋",
+				"家庭医疗"
+			]
+		}, {
+			"title": "厨房用品",
+			"img": [
+				"img/a61.png",
+				"img/a62.png",
+				"img/a63.png"
+			],
+			"alt": [
+				"锅具",
+				"餐厨配件",
+				"刀剑砧板"
+			]
+		}, {
+			"title": "餐具水具",
+			"img": [
+				"img/a71.png",
+				"img/a72.png",
+				"img/a73.png"
+			],
+			"alt": [
+				"餐具",
+				"水具被壶",
+				"茶卡酒具"
+			]
+		}, {
+			"title": "宠物生活",
+			"img": [
+				"img/a81.png",
+				"img/a82.png"
+			],
+			"alt": [
+				"宠物食品",
+				"宠物用品"
+			]
+		}
+	],
+	[
+		{
+			"title": "当季热情",
+			"img": [
+				"img/b11.png",
+				"img/b12.png",
+				"img/b13.png"
+			],
+			"alt": [
+				"秋冬新品",
+				"热卖爆款",
+				"抄底特惠"
+			]
+		}, {
+			"title": "男装",
+			"img": [
+				"img/b21.png",
+				"img/6b4fa90e23805f1907f84a38e187c9b5.webp",
+				"img/b23.png",
+				"img/37867446e19b574cbe50e3de25b9eec2.webp",
+				"img/b25.png",
+				"img/b26.png"
+			],
+			"alt": [
+				"男士外套",
+				"男士针织衫/卫衣",
+				"男士衬衫",
+				"男士裤装",
+				"男士牛仔",
+				"男士T恤"
+			]
+		}, {
+			"title": "女装",
+			"img": [
+				"img/c83c84d582b15abde820e4b8575042ba.webp",
+				"img/b32.png",
+				"img/b34.png",
+				"img/b35.png",
+				"img/b36.png",
+				"img/4b9301c4a4642641ce856c9077021df3.webp",
+				"img/14738568c5742726c1763aeae093c163.webp"
+			],
+			"alt": [
+				"女式外套",
+				"女式针织衫/卫衣",
+				"女式裤装",
+				"女士牛仔",
+				"女士T恤/POLO",
+				"女士裙装",
+				"女式衬衫"
+			]
+		}, {
+			"title": "居家内衣",
+			"img": [
+				"img/b41.png",
+				"img/ff747839a6651c8f8929e7e202a06c02.webp",
+				"img/969ad4c29be41ed8da9de19a0ca56742.webp",
+				"img/b44.png",
+				"img/b45.png",
+				"img/b46.png",
+				"img/b47.png"
+			],
+			"alt": [
+				"男士内衣",
+				"男士家居服",
+				"女士家居服",
+				"男士内裤",
+				"女士内裤",
+				"女士内衣/文胸",
+				"短袜/裤袜"
+			]
+		}, {
+			"title": "鞋靴",
+			"img": [
+				"img/b51.png",
+				"img/b52.png",
+				"img/bf8e4d26430070ca2c8879f7752eff61.webp",
+				"img/b54.png"
+			],
+			"alt": [
+				"男鞋",
+				"女鞋",
+				"拖鞋",
+				"鞋配"
+			]
+		}, {
+			"title": "箱包",
+			"img": [
+				"img/b61.png",
+				"img/b62.png",
+				"img/b63.png",
+				"img/b64.png"
+			],
+			"alt": [
+				"女士包袋",
+				"男士包袋",
+				"钱包及小皮件",
+				"行李箱"
+			]
+		}, {
+			"title": "首饰配件",
+			"img": [
+				"img/b71.png",
+				"img/b72.png",
+				"img/b73.png",
+				"img/b74.png",
+				"img/b75.png",
+				"img/b76.png"
+			],
+			"alt": [
+				"奢华珠宝",
+				"时尚饰品",
+				"围巾手套",
+				"帽子发饰",
+				"腰带腕表",
+				"眼镜墨镜"
+			]
+		}, {
+			"title": "系列特辑",
+			"img": [
+				"img/b81.png",
+				"img/b82.png",
+				"img/b83.png",
+				"img/b84.png",
+				"img/b85.png",
+				"img/b86.png"
+			],
+			"alt": [
+				"免烫系列",
+				"棉麻系列",
+				"真丝系列",
+				"莫代尔系列",
+				"几何森林",
+				"海洋环保"
+			]
+		}
+	],
+	[
+		{
+			"title": "精选美食",
+			"img": [
+				"img/ce17ad4470daa9a1304cf872361d8b29.webp",
+				"img/80d4056dc37cb556acd80b69193397ef.webp",
+				"img/cc2a099be6846fed02584585cb07d7e7.webp"
+			],
+			"alt": [
+				"双11定金购",
+				"新品首发",
+				"好味精选"
+			]
+		}, {
+			"title": "休闲零食",
+			"img": [
+				"img/f50b9a58a8492cfbf41116dc184a3e0f.webp",
+				"img/3707fbabcfd22c4039a4cabc8e4c447a.webp",
+				"img/027d936f4ce88772a57cb993772c82d9.webp"
+			],
+			"alt": [
+				"饼干糕点",
+				"小食糖巧",
+				"肉类零食"
+			]
+		}, {
+			"title": "坚果蜜饯",
+			"img": [
+				"img/0e6051928118445f4c9ed057314b8425.webp",
+				"img/762653055eeca2aa708a034b8e1d0d81.webp"
+			],
+			"alt": [
+				"坚果炒汇",
+				"蜜饯果干"
+			]
+		}, {
+			"title": "冲印名茶",
+			"img": [
+				"img/dd21144dd9cc4031c7e5f1614524b229.webp",
+				"img/eef3847014685c6be03ac6e2a02407b4.webp"
+			],
+			"alt": [
+				"冲印调品",
+				"传统茗茶",
+				"名茶礼盒",
+				"茶包花茶"
+			]
+		}, {
+			"title": "滋补保健",
+			"img": [
+				"img/63784a476996a155a05e4f76ebb9bdb2.webp",
+				"img/ce76432620bf86aec892eb17e8afb951.webp"
+			],
+			"alt": [
+				"滋补食材",
+				"保健品"
+			]
+		}, {
+			"title": "酒水饮料",
+			"img": [
+				"img/06cf0a381b87e9b621e93ba7025114f4.webp",
+				"img/fe26d5106a40b553ef695a10aadb7446.webp",
+				"img/fd8b9071456a979d7e6d0d3865049f14.webp"
+			],
+			"alt": [
+				"乳品饮料",
+				"酒类",
+				"名酒管"
+			]
+		}, {
+			"title": "粮油调味",
+			"img": [
+				"img/8578759aed2268f7aa8641273cac7cb3.webp",
+				"img/492dfb836e9e5af22bb6b4a97990564f.webp",
+				"img/2da5e4e680b646f61e3a33cf881ac646.webp",
+				"img/5fae33a840870b487cc903535383bf97.webp"
+			],
+			"alt": [
+				"米面粮油",
+				"方便食品",
+				"南北干货",
+				"调味酱菜"
+			]
+		}, {
+			"title": "生鲜特色",
+			"img": [
+				"img/bfb1e3f73b0810e9b0737e53c9140346.webp",
+				"img/e3a8d721712c5260544ba7552ac104d1.webp",
+				"img/48e6f9f22d994391ccc0b55357c770c2.webp",
+				"img/79b904ccd106d3875a90d4430f2e8ad2.webp",
+				"img/c11f5457dfb38e76f60100c87ecdf0cd.webp"
+			],
+			"alt": [
+				"水果蔬菜",
+				"卤蛋海鲜",
+				"冷冻冷藏",
+				"网易黑猪",
+				"全球美食"
+			]
+		}
+	]
+]

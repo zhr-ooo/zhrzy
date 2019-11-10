@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.footer {
+				width: 100%;
+				height: 579px;
+				text-align: center;
+			}
+			
+			.hea {
+				padding-top: 60px;
+				padding-bottom: 34px;
+				background-color: #fff;
+				border-top: 1px solid #e8e8e8;
+				font-size: 12px;
+				box-sizing: border-box;
+			}
+			
+			.hx_ct1 {
+				width: 1090px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			.yp-item {
+				width: 33.33333%;
+				height: 204px;
+				float: left;
+				text-align: center;
+				border-right: 1px solid rgb(233, 233, 233);
+				box-sizing: border-box;
+			}
+			
+			.ypbd {
+				border: none;
+			}
+			
+			.ypfu {
+				font-size: 16px;
+				font-weight: 400;
+				margin-bottom: 28px;
+				line-height: 1;
+			}
+			
+			.ypdian {
+				width: 80px;
+				height: 100px;
+				font-size: 14px;
+				background-color: #fff;
+				padding-top: 25px;
+				text-align: center;
+				border: 1px solid #E8E8E8;
+				display: inline-block;
+				box-sizing: border-box;
+				overflow: hidden;
+			}
+			
+			.ypnimg {
+				background: url(../img/icon-yxfoot-sb38e8b0402-214e6650b9.webp);
+				background-position: 0 -290px;
+				height: 26px;
+				width: 31px;
+				margin: 0 auto;
+			}
+			
+			.ypzii {
+				margin-top: 10px;
+			}
+			
+			.posiimg {
+				background-position: 0 -97px;
+			}
+			
+			.ypp {
+				margin-left: 25px;
+			}
+			
+			.ypdesc {
+				text-align: left;
+				font-size: 13px;
+				line-height: 23px;
+				margin-bottom: 22px;
+				padding: 0 37px;
+				box-sizing: border-box;
+			}
+			
+			.ypflow {
+				padding: 0 37px;
+				box-sizing: border-box;
+				text-align: left;
+				font-size: 14px;
+				line-height: 32px;
+				margin-left: 10px;
+			}
+			
+			.ypflow p {
+				float: left;
+			}
+			
+			.ypsan {
+				float: left
+			}
+			
+			.yapp {
+				float: left;
+				margin-right: 15px;
+				position: relative;
+				padding-bottom: 10px;
+				box-sizing: border-box;
+				width: 32px;
+				height: 42px;
+				background: url(../img/hxm_yanxuan-component_p_20170601_style_img_x1_icon-yxfoot-sb38e8b0402-214e6650b9.png);
+			}
+			
+			.yapp1 {
+				background-position: 0 -470px;
+			}
+			
+			.yapp2 {
+				background-position: 0 -428px;
+			}
+			
+			.yapp3 {
+				background-position: 0 -326px;
+			}
+			
+			.yper {
+				width: 123px;
+				height: 125px;
+				box-sizing: border-box;
+				padding: 10px;
+				position: absolute;
+				left: -45px;
+				top: 35px;
+				display: none;
+				border: 1px solid rgb(243, 243, 243);
+			}
+			
+			.yapp:hover .yper {
+				display: block;
+			}
+			
+			.ypxizai {
+				width: 104px;
+				height: 104px;
+				background: url(../img/下载.png);
+				margin: 0 auto;
+			}
+			
+			.yptap {
+				color: #b4a078;
+				font-size: 12px;
+				margin-top: 3px;
+			}
+			
+			.fea {
+				height: 250px;
+				padding-top: 37px;
+				background-color: #414141;
+				box-sizing: border-box;
+			}
+			
+			.feac {
+				width: 1090px;
+				margin: 0 auto;
+				position: relative;
+				text-align: center;
+			}
+			
+			.ytul {
+				margin-bottom: 30px!important;
+				padding-left: 17px;
+				box-sizing: border-box;
+				list-style: none;
+			}
+			
+			.ytul li {
+				float: left;
+				margin-left: 127px;
+			}
+			
+			.ytul li:nth-child(1) {
+				margin-left: 0px;
+			}
+			
+			.ytul {
+				height: 51px;
+				margin-bottom: 30px;
+				box-sizing: border-box;
+				position: relative;
+			}
+			
+			.ytul:after {
+				content: "";
+				height: 1px;
+				width: 1090px;
+				background: rgb(79, 79, 79);
+				position: absolute;
+				bottom: -30px;
+				left: 0px;
+			}
+			
+			.ytul li i {
+				width: 50px;
+				height: 50px;
+				float: left;
+				margin-right: 17px;
+				background: url(../img/icon-yxfoot-sb38e8b0402-214e6650b9.webp);
+			}
+			
+			.ytul li:nth-child(1) i {
+				background-position: 0 -134px;
+			}
+			
+			.ytul li:nth-child(2) i {
+				background-position: 0 -368px;
+			}
+			
+			.ytul li:nth-child(3) i {
+				background-position: 0 0;
+			}
+			
+			.ytul li:nth-child(4) i {
+				background-position: 0 -194px;
+			}
+			
+			.ytul li div {
+				box-sizing: border-box;
+				float: left;
+				color: #fff;
+				font-size: 18px;
+				line-height: 51px;
+			}
+			
+			.ypmict {
+				font-size: 12px;
+				color: rgb(153, 153, 153);
+				text-align: center;
+			}
+			
+			.tpbotit {
+				overflow: hidden;
+				margin: 0 auto;
+				text-align: center;
+				margin-top: 50px;
+				box-sizing: border-box;
+			}
+			
+			.tpbotit a {
+				
+				display: inline-block;
+				text-align: center;
+				vertical-align: middle;
+			}
+			
+			.tpbotit i {
+				font-style: normal;
+				margin: auto 13px;
+				vertical-align: middle;
+				
+			}
+			.pspan{
+				margin-top: 15px;
+				height: 10px;
+			}
+			.ypdian:hover{
+				color: black;
+				border: 1px solid rgb(232,232,232);
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="footer">
+			<div class="hea" style="height: 299px;">
+				<div class="hx_ct1">
+					<div class="yp-item">
+						<div class="ypc">
+							<div class="ypfu">客户服务</div>
+							<a class="ypdian ">
+								<div class="ypnimg"></div>
+								<div class="ypzii">在线客服</div>
+							</a>
+							<a class="ypdian ypp">
+								<div class="ypnimg posiimg"></div>
+								<div class="ypzii">用户反馈</div>
+							</a>
+						</div>
+					</div>
+					<div class="yp-item">
+						<div class="ypfu">何为严选</div>
+						<div class="ypdesc">
+							网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品
+						</div>
+						<div class="ypflow">
+							<p>关注我们：</p>
+							<div class="ypsan">
+								<div class="yapp yapp1">
+									<div class="yper"style="background: white;">
+										<img src="../img/7117e381ba1bb5c2c9dfdafed7810d2e.webp" />
+
+									</div>
+								</div>
+								<div class="yapp yapp2">
+									<div class="yper" style="background: white;">
+										<img src="../img/a3652c6bd3723412fe5099aea1502e50.webp" />
+									</div>
+								</div>
+								<div class="yapp yapp3"></div>
+							</div>
+						</div>
+					</div>
+					<div class="yp-item yobd">
+						<div class="ypfu">扫码下载严选APP</div>
+						<div class="ypxizai"></div>
+						<div class="yptap">下载领1000元新人礼包</div>
+					</div>
+				</div>
+			</div>
+			<div class="fea">
+				<div class="feac">
+					<ul class="ytul">
+						<li>
+							<i></i>
+							<div>网易自营电商</div>
+						</li>
+						<li>
+							<i></i>
+							<div>30天无忧退换货</div>
+						</li>
+						<li>
+							<i></i>
+							<div>满88元免邮费</div>
+						</li>
+						<li>
+							<i></i>
+							<div>品质保证</div>
+						</li>
+					</ul>
+					<div class="ypmict">
+						<div class="tpbotit">
+							<span>关于我们</span>
+							<i>|</i>
+							<span>帮助中心</span>
+							<i>|</i>
+							<span>售后服务</span>
+							<i>|</i>
+							<span>配送与验收</span>
+							<i>|</i>
+							<span>商务合作</span>
+							<i>|</i>
+							<span>企业采购</span>
+							<i>|</i>
+							<span>开放平台</span>
+							<i>|</i>
+							<span>搜索推荐</span>
+							<i>|</i>
+							<span>友情链接</span>
+							<i>|</i>
+							<span>廉政举报</span>
+						</div>
+						<p class="pspan">
+							<span>食品经营许可证：JY13301080111719</span>
+							<span>出版物经营许可证：新出发滨字第0132号</span>
+							<span>妙得ICP证号：ICP 证浙B2-20160106</span>
+							<span>浙杭食药监械经营备20171029号</span>
+							<span>营业执照</span>
+							<span>网易公司版权所有 © 1997-</span>
+							<span>2019</span>
+						</p>
+						<p class="pspan">
+							<span>无线电发射设备销售备案：42201919712647</span>
+							<span>（浙杭）网械企备字[2019]第00119号</span>
+							<span>（粤）网械平台备字（2019）第00004号</span>
+							<span>单用途商业预付卡备案证：330100AAC0024</span>
+							<span><img style="width: 23px;height: 25px;transform: translateY(4px);" src="../img/86f32b668af6e537389a77480fb5c74d.gif"/></span>
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>
